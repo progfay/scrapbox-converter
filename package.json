@@ -1,0 +1,27 @@
+{
+  "name": "scrapbox-converter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/progfay/scrapbox-converter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/progfay/scrapbox-converter/issues"
+  },
+  "homepage": "https://github.com/progfay/scrapbox-converter#readme",
+  "dependencies": {
+    "highlight.js": "^9.15.10",
+    "katex": "^0.11.0"
+  },
+  "devDependencies": {
+    "@progfay/scrapbox-parser": "^2.1.1"
+  }
+}
