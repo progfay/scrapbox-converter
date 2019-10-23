@@ -1,7 +1,7 @@
 declare global {
   namespace JSX {
     type IntrinsicElements = {
-      [tagName in keyof ElementTagNameMap]: AttributesType
+      [tagName in keyof ElementTagNameMap]: AttributesType | {}
     }
   }
 }
@@ -27,5 +27,5 @@ const renderInnerHTMLs = (innerHTMLs: (number | string | boolean)[]): string => 
   ).join('')
 )
 
-export default (tagName: string, attributes: AttributesType | null, ...innerHTMLs: any[]): string =>
+export default (tagName: string, attributes: AttributesType, ...innerHTMLs: (number | string | boolean)[]): string =>
   `<${tagName}${attributes ? ` ${renderAttributes(attributes)}` : ''}>${renderInnerHTMLs(innerHTMLs)}</${tagName}>`
