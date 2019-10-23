@@ -1,3 +1,11 @@
+declare global {
+  namespace JSX {
+    interface IntrinsicElements {
+        [elemName: string]: AttributesType | {};
+    }
+  }
+}
+
 type AttributesType = {
   [key: string]: number | string | boolean
 }

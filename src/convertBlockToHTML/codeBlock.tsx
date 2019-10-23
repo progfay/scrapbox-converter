@@ -1,10 +1,14 @@
 import { highlightAuto } from 'highlight.js'
 import pragma from '../lib/pragma'
+import { BlockConverterType } from '.'
+import { CodeBlockType } from '@progfay/scrapbox-parser'
 
-export default ({ content }) => (
+const CodeBlockConverter: BlockConverterType<CodeBlockType> = ({ content }) => (
   <pre>
     <code>
       {highlightAuto(content).value}
     </code>
   </pre>
 )
+
+export default CodeBlockConverter

@@ -2,7 +2,7 @@ import pragma from './lib/pragma'
 import convertBlockToHTML from './convertBlockToHTML'
 import { BlockType } from '@progfay/scrapbox-parser'
 
-const convertSectionToHTML = (section: BlockType[], projectName): string => section.reduce(
+const convertSectionToHTML = (section: BlockType[], projectName: string): string => section.reduce(
   (html, block, index, blocks): string => {
     const { indent } = block
     const pIndent = index === 0 ? 0 : blocks[index - 1].indent

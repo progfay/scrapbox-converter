@@ -1,3 +1,5 @@
+import { LineNodeType, LineType } from '@progfay/scrapbox-parser'
+import { BlockConverterType } from '../'
 import blank from './blank'
 import code from './code'
 import decoration from './decoration'
@@ -13,7 +15,9 @@ import strongIcon from './strongIcon'
 import strongImage from './strongImage'
 import quote from './quote'
 
-const Converter = {
+export type NodeConverterType<T extends LineNodeType> = (node: T, projectName: string) => string
+
+const Converter: { [key: string]: NodeConverterType<any> } = {
   blank,
   code,
   decoration,
@@ -30,8 +34,12 @@ const Converter = {
   quote
 }
 
-export const nodeConverter = (node, projectName) => Converter[node.type](node, projectName)
+export const nodeConverter = (node: LineNodeType, projectName: string) => Converter[node.type](node, projectName)
 
-export default ({ nodes }, projectName) => nodes
-  .map(node => nodeConverter(node, projectName))
-  .join('')
+const LineBlockConverter: BlockConverterType<LineType> = ({ nodes }, projectName) => (
+  nodes
+    .map(node => nodeConverter(node, projectName))
+    .join('')
+)
+
+export default LineBlockConverter

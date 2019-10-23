@@ -1,10 +1,11 @@
 import { TableType } from '@progfay/scrapbox-parser'
 import pragma from '../lib/pragma'
+import { BlockConverterType } from '.'
 
-export default (table: TableType, projectName: string) => (
+const TableBlockConverter: BlockConverterType<TableType> = ({ cells }, projectName) => (
   <table>
     {
-      table.cells.map(
+      cells.map(
         (row, index) => (
           <tr>
             {
@@ -13,11 +14,13 @@ export default (table: TableType, projectName: string) => (
                   ? (<th>{cell.map(node => require('./line').nodeConverter(node, projectName))}</th>)
                   : (<td>{cell.map(node => require('./line').nodeConverter(node, projectName))}</td>)
               )
-            )
-          }
+              )
+            }
           </tr>
         )
       )
     }
   </table>
 )
+
+export default TableBlockConverter

@@ -1,4 +1,5 @@
 import pragma from '../../../lib/pragma'
+import { LinkNodeType, ConverterType } from './'
 
 const youtubeRegExp = /^https?:\/\/(www\.)?youtube\.com\/watch\?v=(?<v>[\w-]+)(?<query>(&\w+=[^\s&]*)*)$/
 const shortYoutubeRegExp = /^https?:\/\/youtu\.be\/(?<v>[\w-]+)(\?(?<query>\w+=[^\s&](&\w+=[^\s&]*)*))?$/
@@ -12,6 +13,17 @@ const params = (query: string): string[][] => (
     })
 )
 
+type YoutubeMatch = {
+  groups: {
+    v: string
+    query: string
+  }
+}
+
+const isYoutubeMatch = (obj: any): obj is YoutubeMatch => {
+  return obj && obj.groups && obj.groups.v && obj.groups.query
+}
+
 const seconds = (t: string): number => {
   if (!t) return 0
   if (/^\d+$/.test(t)) return parseInt(t)
@@ -23,9 +35,10 @@ const seconds = (t: string): number => {
   return 3600 * parseInt(hours) + 60 * parseInt(minutes) + parseInt(seconds)
 }
 
-export default ({ href }) => {
+const YoutubeConverter: ConverterType = (linkNode: LinkNodeType) => {
+  const { href } = linkNode
   const match = href.match(youtubeRegExp) || href.match(shortYoutubeRegExp)
-  if (!match) return null
+  if (!isYoutubeMatch(match)) return null
 
   const { v, query } = match.groups
   const t = (params(query).find(param => param[0] === 't') || [])[1] || '0'
@@ -39,3 +52,5 @@ export default ({ href }) => {
       frameborder={0} />
   )
 }
+
+export default YoutubeConverter

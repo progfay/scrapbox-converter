@@ -1,3 +1,7 @@
+import { PlainNodeType } from '@progfay/scrapbox-parser'
 import escapeHTMLSpecialChars from '../../lib/escapeHTMLSpecialChars'
+import { NodeConverterType } from '.'
 
-export default ({ text }) => escapeHTMLSpecialChars(text)
+const PlainNodeConverter: NodeConverterType<PlainNodeType> = ({ text }) => escapeHTMLSpecialChars(text)
+
+export default PlainNodeConverter

@@ -1,6 +1,8 @@
+import { GoogleMapNodeType } from '@progfay/scrapbox-parser'
 import pragma from '../../lib/pragma'
+import { NodeConverterType } from '.'
 
-export default ({ latitude, longitude, zoom, place }) => (
+const GoogleMapNodeConverter: NodeConverterType<GoogleMapNodeType> = ({ latitude, longitude, zoom, place }) => (
   <iframe
     class='googlemap'
     src={`https://maps.google.co.jp/maps?output=embed&ll=${latitude},${longitude}&z=${zoom}&q=${encodeURIComponent(place)}`}
@@ -9,3 +11,5 @@ export default ({ latitude, longitude, zoom, place }) => (
     frameborder={0}
     allowfullscreen />
 )
+
+export default GoogleMapNodeConverter

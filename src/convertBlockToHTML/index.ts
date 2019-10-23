@@ -1,8 +1,12 @@
+import { BlockType } from '@progfay/scrapbox-parser'
 import line from './line'
 import codeBlock from './codeBlock'
 import table from './table'
 
-const UnimplementedConverter = block => block.type
-const Converter = { line, codeBlock, table }
+export type BlockConverterType<T extends BlockType> = (block: T, projectName: string) => string
+type ConverterType = {
+  [key: string]: BlockConverterType<any>
+}
+const Converter: ConverterType = { line, codeBlock, table }
 
-export default (block, projectName: string): string => (Converter[block.type] || UnimplementedConverter)(block, projectName)
+export default (block: BlockType, projectName: string): string => (Converter[block.type])(block, projectName)

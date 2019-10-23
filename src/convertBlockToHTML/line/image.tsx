@@ -1,8 +1,12 @@
+import { ImageNodeType } from '@progfay/scrapbox-parser'
 import pragma from '../../lib/pragma'
+import { NodeConverterType } from '.'
 
-export default ({ src }) => (
+const ImageNodeConverter: NodeConverterType<ImageNodeType> = ({ src }) => (
   <img
     src={src}
     alt='image'
     class='normal-image' />
 )
+
+export default ImageNodeConverter
