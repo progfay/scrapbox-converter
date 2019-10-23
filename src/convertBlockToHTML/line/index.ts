@@ -6,6 +6,7 @@ import decoration from './decoration'
 import formula from './formula'
 import googleMap from './googleMap'
 import hashTag from './hashTag'
+import helpfeel from './helpfeel'
 import icon from './icon'
 import image from './image'
 import link from './link'
@@ -24,6 +25,7 @@ const Converter: { [key: string]: NodeConverterType<any> } = {
   formula,
   googleMap,
   hashTag,
+  helpfeel,
   icon,
   image,
   link,
