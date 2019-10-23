@@ -1,7 +1,7 @@
 declare global {
   namespace JSX {
-    interface IntrinsicElements {
-        [elemName: string]: AttributesType | {};
+    type IntrinsicElements = {
+      [tagName in keyof ElementTagNameMap]: AttributesType
     }
   }
 }
