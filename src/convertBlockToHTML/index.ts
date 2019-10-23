@@ -5,7 +5,7 @@ import table from './table'
 
 export type BlockConverterType<T extends BlockType> = (block: T, projectName: string) => string
 type ConverterType = {
-  [key: string]: BlockConverterType<any>
+  [type in BlockType['type']]: BlockConverterType<any>
 }
 const Converter: ConverterType = { line, codeBlock, table }
 

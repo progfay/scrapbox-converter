@@ -18,7 +18,7 @@ import quote from './quote'
 
 export type NodeConverterType<T extends LineNodeType> = (node: T, projectName: string) => string
 
-const Converter: { [key: string]: NodeConverterType<any> } = {
+const Converter: { [type in LineNodeType['type']]: NodeConverterType<any> } = {
   blank,
   code,
   decoration,
