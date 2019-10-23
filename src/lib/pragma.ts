@@ -17,5 +17,15 @@ const renderAttributes = (attr: AttributesType): string => (
     .join(' ')
 )
 
+const renderInnerHTMLs = (innerHTMLs: (number | string | boolean)[]): string => (
+  innerHTMLs.map(
+    (innerHTML = '') => (
+      Array.isArray(innerHTML)
+        ? innerHTML.map(html => html.toString()).join('')
+        : innerHTML.toString()
+    )
+  ).join('')
+)
+
 export default (tagName: string, attributes: AttributesType | null, ...innerHTMLs: any[]): string =>
-  `<${tagName}${attributes ? ` ${renderAttributes(attributes)}` : ''}>${innerHTMLs.map((innerHTML = '') => Array.isArray(innerHTML) ? innerHTML.join('') : innerHTML.toString()).join('')}</${tagName}>`
+  `<${tagName}${attributes ? ` ${renderAttributes(attributes)}` : ''}>${renderInnerHTMLs(innerHTMLs)}</${tagName}>`
