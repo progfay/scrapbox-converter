@@ -1,4 +1,6 @@
-const packBlocksToSections = blocks => {
+import { BlockType } from '@progfay/scrapbox-parser'
+
+export default (blocks: BlockType[]) => {
   const sections = []
   let section = []
 
@@ -20,5 +22,3 @@ const packBlocksToSections = blocks => {
   sections.push(section)
   return sections.filter(section => section.length !== 0)
 }
-
-module.exports = packBlocksToSections

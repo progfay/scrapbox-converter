@@ -23,11 +23,11 @@
   },
   "homepage": "https://github.com/progfay/scrapbox-converter#readme",
   "dependencies": {
+    "@progfay/scrapbox-parser": "^2.5.0",
     "highlight.js": "^9.15.10",
     "katex": "^0.11.0"
   },
   "devDependencies": {
-    "@progfay/scrapbox-parser": "^2.3.0",
     "@types/core-js": "^2.5.2",
     "@types/node": "^12.11.2",
     "@typescript-eslint/eslint-plugin": "^2.5.0",
@@ -36,6 +36,7 @@
     "eslint-config-standard": "^14.1.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
     "typescript": "^3.6.4"
   }

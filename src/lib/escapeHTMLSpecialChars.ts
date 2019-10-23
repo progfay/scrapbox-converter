@@ -9,7 +9,7 @@ const specialCharMap = {
   '—': '&mdash;'
 }
 
-module.exports = (html = '') => Object.entries(specialCharMap)
+export default (html: string = ''): string => Object.entries(specialCharMap)
   .reduce(
     (escaped, [key, value]) => escaped.replace(new RegExp(key, 'g'), value),
     html.toString().replace(/&/g, '&amp;')

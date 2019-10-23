@@ -16,6 +16,7 @@ module.exports = {
   },
   'plugins': ['@typescript-eslint'],
   'rules': {
-    '@typescript-eslint/no-unused-vars': [2, { args: 'none' }]
+    'no-unused-vars': ["error", { "varsIgnorePattern": "^pragma$" }],
+    '@typescript-eslint/no-unused-vars': ["error", { "varsIgnorePattern": "^pragma$" }]
   }
 }

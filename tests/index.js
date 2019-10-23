@@ -1,7 +1,7 @@
 const fs = require('fs')
 const parse = require('@progfay/scrapbox-parser')
 
-const convert = require('../')
+const convert = require('../lib').default
 
 const html = body => `
 <head>
@@ -15,10 +15,9 @@ const html = body => `
 
 const page = fs.readFileSync('tests/page.txt').toString()
 const body = convert(parse(page), 'progfay-pub')
+console.log(body)
 
-const http = require('http')
-
-http.createServer((req, res) => {
+require('http').createServer((req, res) => {
   res.writeHead(200, { 'Content-Type': 'text/html' })
   res.end(html(body))
 }).listen(8080, () => { console.log('Serve on http://localhost:8080 !') })
