@@ -1,11 +1,13 @@
-import { UrlNodeType } from '@progfay/scrapbox-parser'
+import { ExternalLinkNodeType, InternalLinkNodeType } from '@progfay/scrapbox-parser'
 import pragma from '../../../lib/pragma'
 import escapeHTMLSpecialChars from '../../../lib/escapeHTMLSpecialChars'
 import youtube from './youtube'
 
 const Converters = [youtube]
 
-const LinkConverter = (linkNode: UrlNodeType) => {
+type LinkNodeType = ExternalLinkNodeType | InternalLinkNodeType
+
+const LinkConverter = (linkNode: LinkNodeType) => {
   const { pathType, href, content } = linkNode
   return (
     <a href={pathType === 'root' ? `https://scrapbox.io${href}` : href}>

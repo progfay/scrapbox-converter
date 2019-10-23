@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/progfay/scrapbox-converter#readme",
   "dependencies": {
-    "@progfay/scrapbox-parser": "^2.5.0",
+    "@progfay/scrapbox-parser": "^2.5.2",
     "highlight.js": "^9.15.10",
     "katex": "^0.11.0"
   },
