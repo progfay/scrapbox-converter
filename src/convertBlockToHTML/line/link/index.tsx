@@ -1,6 +1,6 @@
+import { pragma } from 'html-tsx'
 import { ExternalLinkNodeType, InternalLinkNodeType } from '@progfay/scrapbox-parser'
 import { NodeConverterType } from '../'
-import pragma from '../../../lib/pragma'
 import escapeHTMLSpecialChars from '../../../lib/escapeHTMLSpecialChars'
 import youtube from './youtube'
 

@@ -1,5 +1,5 @@
+import { pragma } from 'html-tsx'
 import { TableType } from '@progfay/scrapbox-parser'
-import pragma from '../lib/pragma'
 import { BlockConverterType } from '.'
 
 const TableBlockConverter: BlockConverterType<TableType> = ({ cells }, projectName) => (

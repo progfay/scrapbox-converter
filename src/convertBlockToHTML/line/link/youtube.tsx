@@ -1,4 +1,4 @@
-import pragma from '../../../lib/pragma'
+import { pragma } from 'html-tsx'
 import { LinkNodeType, ConverterType } from './'
 
 const youtubeRegExp = /^https?:\/\/(www\.)?youtube\.com\/watch\?v=(?<v>[\w-]+)(?<query>(&\w+=[^\s&]*)*)$/

@@ -1,5 +1,5 @@
+import { pragma } from 'html-tsx'
 import { HashTagNodeType } from '@progfay/scrapbox-parser'
-import pragma from '../../lib/pragma'
 import escapeHTMLSpecialChars from '../../lib/escapeHTMLSpecialChars'
 import { NodeConverterType } from '.'
 

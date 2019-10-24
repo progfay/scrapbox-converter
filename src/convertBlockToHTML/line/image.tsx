@@ -1,5 +1,5 @@
+import { pragma } from 'html-tsx'
 import { ImageNodeType } from '@progfay/scrapbox-parser'
-import pragma from '../../lib/pragma'
 import { NodeConverterType } from '.'
 
 const ImageNodeConverter: NodeConverterType<ImageNodeType> = ({ src }) => (

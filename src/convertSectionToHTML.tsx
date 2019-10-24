@@ -1,4 +1,4 @@
-import pragma from './lib/pragma'
+import { pragma } from 'html-tsx'
 import convertBlockToHTML from './convertBlockToHTML'
 import { BlockType } from '@progfay/scrapbox-parser'
 

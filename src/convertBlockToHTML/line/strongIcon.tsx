@@ -1,5 +1,5 @@
+import { pragma } from 'html-tsx'
 import { StrongIconNodeType } from '@progfay/scrapbox-parser'
-import pragma from '../../lib/pragma'
 import { NodeConverterType } from '.'
 
 const StrongIconNodeConverter: NodeConverterType<StrongIconNodeType> = ({ pathType, path }, projectName) => (

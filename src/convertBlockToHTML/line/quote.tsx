@@ -1,5 +1,5 @@
+import { pragma } from 'html-tsx'
 import { QuoteNodeType } from '@progfay/scrapbox-parser'
-import pragma from '../../lib/pragma'
 import { NodeConverterType } from '.'
 
 const QuoteNodeConverter: NodeConverterType<QuoteNodeType> = ({ nodes }, projectName) => (

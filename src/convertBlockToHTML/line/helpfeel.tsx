@@ -1,5 +1,5 @@
+import { pragma } from 'html-tsx'
 import { HelpfeelNodeType } from '@progfay/scrapbox-parser'
-import pragma from '../../lib/pragma'
 import { NodeConverterType } from './'
 import escapeHTMLSpecialChars from '../../lib/escapeHTMLSpecialChars'
 

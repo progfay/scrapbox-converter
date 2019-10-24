@@ -1,5 +1,5 @@
+import { pragma } from 'html-tsx'
 import { DecorationNodeType } from '@progfay/scrapbox-parser'
-import pragma from '../../lib/pragma'
 import { NodeConverterType } from '.'
 
 const DecorationConverter: NodeConverterType<DecorationNodeType> = ({ decos, nodes }, projectName: string): string => (

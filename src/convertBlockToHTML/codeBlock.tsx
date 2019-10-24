@@ -1,5 +1,5 @@
+import { pragma } from 'html-tsx'
 import { highlightAuto } from 'highlight.js'
-import pragma from '../lib/pragma'
 import { BlockConverterType } from '.'
 import { CodeBlockType } from '@progfay/scrapbox-parser'
 

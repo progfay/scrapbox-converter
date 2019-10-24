@@ -1,6 +1,6 @@
+import { pragma } from 'html-tsx'
 import { renderToString, KatexOptions } from 'katex'
 import { FormulaNodeType } from '@progfay/scrapbox-parser'
-import pragma from '../../lib/pragma'
 import { NodeConverterType } from '.'
 
 const FormulaNodeConverter: NodeConverterType<FormulaNodeType> = ({ formula }) => (

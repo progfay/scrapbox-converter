@@ -1,8 +1,8 @@
+import { pragma } from 'html-tsx'
 import { PageType } from '@progfay/scrapbox-parser'
 import packBlocksToSections from './packBlocksToSections'
 import convertSectionToHTML from './convertSectionToHTML'
 import escapeHTMLSpecialChars from './lib/escapeHTMLSpecialChars'
-import pragma from './lib/pragma'
 
 const convert = (page: PageType, projectName: string) => (
   <article>

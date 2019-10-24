@@ -1,5 +1,5 @@
+import { pragma } from 'html-tsx'
 import { GoogleMapNodeType } from '@progfay/scrapbox-parser'
-import pragma from '../../lib/pragma'
 import { NodeConverterType } from '.'
 
 const GoogleMapNodeConverter: NodeConverterType<GoogleMapNodeType> = ({ latitude, longitude, zoom, place }) => (
