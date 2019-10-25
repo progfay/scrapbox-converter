@@ -23,8 +23,7 @@ type YoutubeMatch = {
 
 const isYoutubeMatch = (obj: any): obj is YoutubeMatch => {
   return (
-    typeof obj === 'object' &&
-    typeof obj.groups === 'object' &&
+    !!obj && !!obj.groups &&
     typeof obj.groups.v === 'string' &&
     typeof obj.groups.query === 'string'
   )
