@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Page Sample page 1`] = `
+"<article>
+  <h1 class=\\"title\\">Sample&nbsp;Page</h1>
+  <section>
+    <p><strong>Blank</strong></p>
+    <p>&nbsp;&nbsp;&nbsp;メロスは激怒した。</p>
+  </section>
+  <section>
+    <p><strong>Code</strong></p>
+    <p><pre>code</pre>
+    </p>
+  </section>
+  <section>
+    <p><strong>Code&nbsp;Block</strong></p>
+  </section>
+  <section><pre><code><span class=\\"hljs-function\\"><span class=\\"hljs-keyword\\">function</span> (<span class=\\"hljs-params\\"></span>) </span>{
+  alert(<span class=\\"hljs-built_in\\">document</span>.location.href)
+  <span class=\\"hljs-built_in\\">console</span>.log(<span class=\\"hljs-string\\">\\"hello\\"</span>)
+  <span class=\\"hljs-comment\\">// You can also write comments!</span>
+}</code></pre>
+  </section>
+  <section>
+    <p><strong>Decoration</strong></p>
+    <p><strong class=\\"deco-*-3\\">deco-*-3</strong></p>
+    <p><strong class=\\"deco-/ deco-! deco-_ deco--\\">deco-!&nbsp;deco-_&nbsp;deco--&nbsp;deco-/</strong></p>
+  </section>
+  <section>
+    <p><strong>Formula</strong></p>
+    <p><span><span class=\\"katex\\"><span class=\\"katex-html\\" aria-hidden=\\"true\\"><span class=\\"base\\"><span class=\\"strut\\" style=\\"height:1.2809409999999999em;vertical-align:-0.29971000000000003em;\\"></span><span class=\\"mop\\"><span class=\\"mop op-symbol small-op\\" style=\\"position:relative;top:-0.0000050000000000050004em;\\">∑</span><span class=\\"msupsub\\"><span class=\\"vlist-t vlist-t2\\"><span class=\\"vlist-r\\"><span class=\\"vlist\\" style=\\"height:0.981231em;\\"><span style=\\"top:-2.40029em;margin-left:0em;margin-right:0.05em;\\"><span class=\\"pstrut\\" style=\\"height:2.7em;\\"></span><span class=\\"sizing reset-size6 size3 mtight\\"><span class=\\"mord mtight\\"><span class=\\"mord mathdefault mtight\\" style=\\"margin-right:0.03148em;\\">k</span><span class=\\"mrel mtight\\">=</span><span class=\\"mord mtight\\">0</span></span></span></span><span style=\\"top:-3.2029em;margin-right:0.05em;\\"><span class=\\"pstrut\\" style=\\"height:2.7em;\\"></span><span class=\\"sizing reset-size6 size3 mtight\\"><span class=\\"mord mathdefault mtight\\" style=\\"margin-right:0.10903em;\\">N</span></span></span></span><span class=\\"vlist-s\\">​</span></span><span class=\\"vlist-r\\"><span class=\\"vlist\\" style=\\"height:0.29971000000000003em;\\"><span></span></span></span></span></span></span><span class=\\"mspace\\" style=\\"margin-right:0.16666666666666666em;\\"></span><span class=\\"mord\\"><span class=\\"mord mathdefault\\" style=\\"margin-right:0.03148em;\\">k</span><span class=\\"msupsub\\"><span class=\\"vlist-t\\"><span class=\\"vlist-r\\"><span class=\\"vlist\\" style=\\"height:0.8141079999999999em;\\"><span style=\\"top:-3.063em;margin-right:0.05em;\\"><span class=\\"pstrut\\" style=\\"height:2.7em;\\"></span><span class=\\"sizing reset-size6 size3 mtight\\"><span class=\\"mord mtight\\">2</span></span></span></span></span></span></span></span><span class=\\"mspace\\" style=\\"margin-right:0.2777777777777778em;\\"></span><span class=\\"mrel\\">=</span><span class=\\"mspace\\" style=\\"margin-right:0.2777777777777778em;\\"></span></span><span class=\\"base\\"><span class=\\"strut\\" style=\\"height:1.190108em;vertical-align:-0.345em;\\"></span><span class=\\"mord\\"><span class=\\"mopen nulldelimiter\\"></span><span class=\\"mfrac\\"><span class=\\"vlist-t vlist-t2\\"><span class=\\"vlist-r\\"><span class=\\"vlist\\" style=\\"height:0.845108em;\\"><span style=\\"top:-2.6550000000000002em;\\"><span class=\\"pstrut\\" style=\\"height:3em;\\"></span><span class=\\"sizing reset-size6 size3 mtight\\"><span class=\\"mord mtight\\"><span class=\\"mord mtight\\">2</span></span></span></span><span style=\\"top:-3.23em;\\"><span class=\\"pstrut\\" style=\\"height:3em;\\"></span><span class=\\"frac-line\\" style=\\"border-bottom-width:0.04em;\\"></span></span><span style=\\"top:-3.394em;\\"><span class=\\"pstrut\\" style=\\"height:3em;\\"></span><span class=\\"sizing reset-size6 size3 mtight\\"><span class=\\"mord mtight\\"><span class=\\"mord mtight\\">1</span></span></span></span></span><span class=\\"vlist-s\\">​</span></span><span class=\\"vlist-r\\"><span class=\\"vlist\\" style=\\"height:0.345em;\\"><span></span></span></span></span></span><span class=\\"mclose nulldelimiter\\"></span></span><span class=\\"mord mathdefault\\" style=\\"margin-right:0.10903em;\\">N</span><span class=\\"mopen\\">(</span><span class=\\"mord mathdefault\\" style=\\"margin-right:0.10903em;\\">N</span><span class=\\"mspace\\" style=\\"margin-right:0.2222222222222222em;\\"></span><span class=\\"mbin\\">+</span><span class=\\"mspace\\" style=\\"margin-right:0.2222222222222222em;\\"></span></span><span class=\\"base\\"><span class=\\"strut\\" style=\\"height:1em;vertical-align:-0.25em;\\"></span><span class=\\"mord\\">1</span><span class=\\"mclose\\">)</span></span></span></span></span></p>
+  </section>
+  <section>
+    <p><strong>Google&nbsp;Map</strong></p>
+    <p><iframe class=\\"googlemap\\" src=\\"https://maps.google.co.jp/maps?output=embed&amp;ll=35.6972422,139.7593459&amp;z=17&amp;q=%E6%98%8E%E6%B2%BB%E5%A4%A7%E5%AD%A6\\" width=\\"620\\" height=\\"450\\" frameborder=\\"0\\" allowfullscreen=\\"true\\"></iframe></p>
+  </section>
+  <section>
+    <p><strong>Hash&nbsp;Tag</strong></p>
+    <p><a href=\\"hashTag\\">#hashTag</a></p>
+  </section>
+  <section>
+    <p><strong>Indent</strong></p>
+    <ul>
+      <li>level1</li>
+      <ul>
+        <li>level2</li>
+        <ul>
+          <li>level3</li>
+        </ul>
+      </ul>
+      <li>level1</li>
+      <ul>
+        <ul>
+          <li>level3</li>
+        </ul>
+        <li>level2</li>
+      </ul>
+    </ul>
+  </section>
+  <section>
+    <p><strong>Icon</strong></p>
+    <p><img src=\\"https://scrapbox.io/api/pages/projectName/progfay/icon\\" alt=\\"icon\\" class=\\"normal-icon\\"></img></p>
+    <p><img src=\\"https://scrapbox.io/api/pages/icons/hr/icon\\" alt=\\"icon\\" class=\\"normal-icon\\"></img></p>
+  </section>
+  <section>
+    <p><strong>Image</strong></p>
+    <p><img src=\\"https://i.gyazo.com/da78df293f9e83a74b5402411e2f2e01.png\\" alt=\\"image\\" class=\\"normal-image\\"></img></p>
+  </section>
+  <section>
+    <p><strong>Link</strong></p>
+    <p><a href=\\"https://example.com\\">https://example.com</a></p>
+    <p><a href=\\"https://example.com\\">example</a></p>
+    <p><a href=\\"https://scrapbox.io/help/syntax\\">/help/syntax</a></p>
+    <p><a href=\\"settings\\">settings</a></p>
+  </section>
+  <section>
+    <p><strong>Plain</strong></p>
+    <p>This&nbsp;is&nbsp;plain&nbsp;text.</p>
+    <p>渡&nbsp;邊&nbsp;恵&nbsp;太&nbsp;(@100kw)</p>
+  </section>
+  <section>
+    <p><strong>Quote</strong></p>
+    <p>
+      <blockquote>&nbsp;Quote&nbsp;sentence</blockquote>
+    </p>
+    <p>
+      <blockquote>&nbsp;Quote&nbsp;sentence</blockquote>
+    </p>
+  </section>
+  <section>
+    <p><strong>Strong</strong></p>
+    <p><strong>This&nbsp;is&nbsp;Strong&nbsp;text.</strong></p>
+  </section>
+  <section>
+    <p><strong>Strong&nbsp;Icon</strong></p>
+    <p><img src=\\"https://scrapbox.io/api/pages/projectName/progfay/icon\\" alt=\\"icon\\" class=\\"strong-icon\\"></img></p>
+    <p><img src=\\"https://scrapbox.io/api/pages/icons/hr/icon\\" alt=\\"icon\\" class=\\"strong-icon\\"></img></p>
+  </section>
+  <section>
+    <p><strong>Strong&nbsp;Image</strong></p>
+    <p><img src=\\"https://gyazo.com/5593f3bbe109c38ebf07c16dd25dc4c4/thumb/1000\\" alt=\\"image\\" class=\\"strong-image\\"></img></p>
+  </section>
+  <section>
+    <p><strong>Table</strong></p>
+  </section>
+  <section>
+    <table>
+      <tr>
+        <th>1</th>
+        <th>2</th>
+        <th>3</th>
+      </tr>
+      <tr>
+        <td>1&nbsp;</td>
+        <td>2&nbsp;</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>------</td>
+        <td>------</td>
+        <td>------</td>
+      </tr>
+      <tr>
+        <td>a</td>
+        <td>b</td>
+        <td>c</td>
+      </tr>
+    </table>
+  </section>
+  <section>
+    <p><strong>Youtube</strong></p>
+    <p><iframe width=\\"640\\" height=\\"360\\" src=\\"http://www.youtube.com/embed/YJ5q8Wrkbdw\\" start=\\"8\\" frameborder=\\"0\\"></iframe></p>
+  </section>
+</article>"
+`;

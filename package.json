@@ -6,10 +6,10 @@
   "scripts": {
     "prebuild": "rm -rf lib",
     "build": "tsc -p ./tsconfig.json",
-    "test:update": "jest --updateSnapshot",
     "lint": "eslint . --ext .ts,.tsx",
     "lint:fix": "eslint --fix . --ext .ts.tsx",
-    "test": "node tests/index.js"
+    "test": "jest --coverage",
+    "test:update": "jest --updateSnapshot"
   },
   "repository": {
     "type": "git",
@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/progfay/scrapbox-converter#readme",
   "dependencies": {
-    "@progfay/scrapbox-parser": "^2.5.2",
+    "@progfay/scrapbox-parser": "^2.6.0",
     "highlight.js": "^9.15.10",
     "html-tsx": "^1.0.2",
     "katex": "^0.11.0"
@@ -31,8 +31,10 @@
   "devDependencies": {
     "@types/core-js": "^2.5.2",
     "@types/highlight.js": "^9.12.3",
+    "@types/jest": "^24.0.19",
     "@types/katex": "^0.10.2",
     "@types/node": "^12.11.2",
+    "@types/pretty": "^2.0.0",
     "@typescript-eslint/eslint-plugin": "^2.5.0",
     "@typescript-eslint/parser": "^2.5.0",
     "eslint": "^6.5.1",
@@ -41,6 +43,9 @@
     "eslint-plugin-node": "^10.0.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
+    "jest": "^24.9.0",
+    "pretty": "^2.0.0",
+    "ts-jest": "^24.1.0",
     "typescript": "^3.6.4"
   }
 }
