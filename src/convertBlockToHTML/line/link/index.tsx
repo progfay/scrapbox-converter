@@ -1,11 +1,10 @@
 import { pragma } from 'html-tsx'
 import { ExternalLinkNodeType, InternalLinkNodeType } from '@progfay/scrapbox-parser'
-import { NodeConverterType } from '../'
+import { NodeConverterType, SubNodeConverterType } from '../'
 import escapeHTMLSpecialChars from '../../../lib/escapeHTMLSpecialChars'
 import youtube from './youtube'
 
-export type ConverterType = (node: LinkNodeType, projectName: string) => string | null
-const Converters: ConverterType[] = [youtube]
+const Converters: SubNodeConverterType<LinkNodeType>[] = [youtube]
 
 export type LinkNodeType = ExternalLinkNodeType | InternalLinkNodeType
 

@@ -17,6 +17,7 @@ import strongImage from './strongImage'
 import quote from './quote'
 
 export type NodeConverterType<T extends LineNodeType> = (node: T, projectName: string) => string
+export type SubNodeConverterType<T extends LineNodeType> = (node: T, projectName: string) => string | null
 
 const Converter: { [type in LineNodeType['type']]: NodeConverterType<any> } = {
   blank,

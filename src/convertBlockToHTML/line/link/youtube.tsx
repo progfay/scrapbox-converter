@@ -1,5 +1,6 @@
 import { pragma } from 'html-tsx'
-import { LinkNodeType, ConverterType } from './'
+import { SubNodeConverterType } from '../'
+import { LinkNodeType } from './'
 
 const youtubeRegExp = /^https?:\/\/(www\.)?youtube\.com\/watch\?v=(?<v>[\w-]+)(?<query>(&\w+=[^\s&]*)*)$/
 const shortYoutubeRegExp = /^https?:\/\/youtu\.be\/(?<v>[\w-]+)(\?(?<query>\w+=[^\s&](&\w+=[^\s&]*)*))?$/
@@ -40,7 +41,7 @@ const seconds = (t: string): number => {
   return 3600 * parseInt(hours) + 60 * parseInt(minutes) + parseInt(seconds)
 }
 
-const YoutubeConverter: ConverterType = (linkNode: LinkNodeType) => {
+const YoutubeConverter: SubNodeConverterType<LinkNodeType> = (linkNode: LinkNodeType) => {
   const { href } = linkNode
   const match = href.match(youtubeRegExp) || href.match(shortYoutubeRegExp)
   if (!isYoutubeMatch(match)) return null
