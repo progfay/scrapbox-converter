@@ -27,6 +27,9 @@ code:js
 [[Hash Tag]]
 #hashTag
 
+[[Helpfeel]]
+? Helpfeel notation
+
 [[Indent]]
 	level1
 		level2
@@ -74,4 +77,8 @@ table:hello
  a	b	c
 
 [[Youtube]]
+[https://youtu.be/YJ5q8Wrkbdw]
 [https://youtu.be/YJ5q8Wrkbdw?t=8]
+[https://youtu.be/YJ5q8Wrkbdw?t=8s]
+[https://youtu.be/YJ5q8Wrkbdw?t=1m]
+[https://youtu.be/YJ5q8Wrkbdw?t=0h0m3s]
