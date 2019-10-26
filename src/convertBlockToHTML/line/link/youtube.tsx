@@ -3,7 +3,7 @@ import { SubNodeConverterType } from '../'
 import { LinkNodeType } from './'
 
 const youtubeRegExp = /^https?:\/\/(www\.)?youtube\.com\/watch\?v=(?<v>[\w-]+)(?<query>(&\w+=[^\s&]*)*)$/
-const shortYoutubeRegExp = /^https?:\/\/youtu\.be\/(?<v>[\w-]+)(\?(?<query>\w+=[^\s&](&\w+=[^\s&]*)*))?$/
+const shortYoutubeRegExp = /^https?:\/\/youtu\.be\/(?<v>[\w-]+)(\?(?<query>\w+=[^\s&]*(&\w+=[^\s&]*)*))?$/
 
 const params = (query: string): string[][] => (
   query
@@ -17,21 +17,19 @@ const params = (query: string): string[][] => (
 type YoutubeMatch = {
   groups: {
     v: string
-    query: string
+    query: string | undefined
   }
 }
 
 const isYoutubeMatch = (obj: any): obj is YoutubeMatch => {
   return (
     !!obj && !!obj.groups &&
-    typeof obj.groups.v === 'string' &&
-    typeof obj.groups.query === 'string'
+    typeof obj.groups.v === 'string'
   )
 }
 
 const seconds = (t: string): number => {
-  if (!t) return 0
-  if (/^\d+$/.test(t)) return parseInt(t)
+  if (/^\d+$/.test(t)) return parseInt(t, 10)
 
   const match = t.match(/^(?<hours>(\d+)h)?((?<minutes>\d+)m)?((?<seconds>\d+)s)?$/)
   if (!match || !match.groups) return 0
@@ -45,7 +43,7 @@ const YoutubeConverter: SubNodeConverterType<LinkNodeType> = (linkNode: LinkNode
   const match = href.match(youtubeRegExp) || href.match(shortYoutubeRegExp)
   if (!isYoutubeMatch(match)) return null
 
-  const { v, query } = match.groups
+  const { v, query = '' } = match.groups
   const t = (params(query).find(param => param[0] === 't') || [])[1] || '0'
 
   return (
