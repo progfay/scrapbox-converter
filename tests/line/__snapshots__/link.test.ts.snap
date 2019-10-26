@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`link Link with content 1`] = `
+"<article>
+  <h1 class=\\"title\\">Link</h1>
+  <section>
+    <p><a href=\\"https://example.com\\">example</a></p>
+  </section>
+</article>"
+`;
+
+exports[`link Relative link 1`] = `
+"<article>
+  <h1 class=\\"title\\">Link</h1>
+  <section>
+    <p><a href=\\"settings\\">settings</a></p>
+  </section>
+</article>"
+`;
+
+exports[`link Root link 1`] = `
+"<article>
+  <h1 class=\\"title\\">Link</h1>
+  <section>
+    <p><a href=\\"https://scrapbox.io/help/syntax\\">/help/syntax</a></p>
+  </section>
+</article>"
+`;
+
+exports[`link Simple link 1`] = `
+"<article>
+  <h1 class=\\"title\\">Link</h1>
+  <section>
+    <p><a href=\\"https://example.com\\">https://example.com</a></p>
+  </section>
+</article>"
+`;

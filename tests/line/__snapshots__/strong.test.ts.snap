@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`strong Simple strong 1`] = `
+"<article>
+  <h1 class=\\"title\\">Strong</h1>
+  <section>
+    <p><strong>This&nbsp;is&nbsp;Strong&nbsp;text.</strong></p>
+  </section>
+</article>"
+`;

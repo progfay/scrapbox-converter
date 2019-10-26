@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`codeBlock Simple codeBlock 1`] = `
+"<article>
+  <h1 class=\\"title\\">Code&nbsp;Block</h1>
+  <section><pre><code><span class=\\"hljs-function\\"><span class=\\"hljs-keyword\\">function</span> (<span class=\\"hljs-params\\"></span>) </span>{
+  alert(<span class=\\"hljs-built_in\\">document</span>.location.href)
+  <span class=\\"hljs-built_in\\">console</span>.log(<span class=\\"hljs-string\\">\\"hello\\"</span>)
+  <span class=\\"hljs-comment\\">// You can also write comments!</span>
+}</code></pre>
+  </section>
+</article>"
+`;

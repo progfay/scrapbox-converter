@@ -16,7 +16,6 @@ code:js
 
 [[Decoration]]
 [*** deco-*-3]
-[/!_- deco-! deco-_ deco-- deco-/]
 
 [[Formula]]
 [$ \sum_{k=0}^N k^2 = \frac{1}{2}N(N + 1)]
@@ -40,23 +39,17 @@ code:js
 
 [[Icon]]
 [progfay.icon]
-[/icons/hr.icon]
 
 [[Image]]
 [http://cutedog.com https://i.gyazo.com/da78df293f9e83a74b5402411e2f2e01.png]
 
 [[Link]]
-https://example.com
 [https://example.com example]
-[/help/syntax]
-[settings]
 
 [[Plain]]
 This is plain text.
-渡 邊 恵 太 (@100kw)
 
 [[Quote]]
-> Quote sentence
 > Quote sentence
 
 [[Strong]]
@@ -64,7 +57,6 @@ This is plain text.
 
 [[Strong Icon]]
 [[progfay.icon]]
-[[/icons/hr.icon]]
 
 [[Strong Image]]
 [[https://gyazo.com/5593f3bbe109c38ebf07c16dd25dc4c4]]
@@ -78,7 +70,3 @@ table:hello
 
 [[Youtube]]
 [https://youtu.be/YJ5q8Wrkbdw]
-[https://youtu.be/YJ5q8Wrkbdw?t=8]
-[https://youtu.be/YJ5q8Wrkbdw?t=8s]
-[https://youtu.be/YJ5q8Wrkbdw?t=1m]
-[https://youtu.be/YJ5q8Wrkbdw?t=0h0m3s]

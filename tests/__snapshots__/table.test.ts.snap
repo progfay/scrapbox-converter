@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`table Simple table 1`] = `
+"<article>
+  <h1 class=\\"title\\">Table</h1>
+  <section>
+    <table>
+      <tr>
+        <th>&nbsp;1</th>
+        <th>2</th>
+        <th>3</th>
+      </tr>
+      <tr>
+        <td>&nbsp;1&nbsp;</td>
+        <td>2&nbsp;</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>&nbsp;------</td>
+        <td>------</td>
+        <td>------</td>
+      </tr>
+      <tr>
+        <td>&nbsp;a</td>
+        <td>b</td>
+        <td>c</td>
+      </tr>
+    </table>
+  </section>
+</article>"
+`;

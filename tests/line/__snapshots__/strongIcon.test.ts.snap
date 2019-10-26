@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`strongIcon Root strongIcon 1`] = `
+"<article>
+  <h1 class=\\"title\\">Strong&nbsp;Icon</h1>
+  <section>
+    <p><img src=\\"https://scrapbox.io/api/pages/icons/hr/icon\\" alt=\\"icon\\" class=\\"strong-icon\\"></img></p>
+  </section>
+</article>"
+`;
+
+exports[`strongIcon Simple strongIcon 1`] = `
+"<article>
+  <h1 class=\\"title\\">Strong&nbsp;Icon</h1>
+  <section>
+    <p><img src=\\"https://scrapbox.io/api/pages/projectName/progfay/icon\\" alt=\\"icon\\" class=\\"strong-icon\\"></img></p>
+  </section>
+</article>"
+`;

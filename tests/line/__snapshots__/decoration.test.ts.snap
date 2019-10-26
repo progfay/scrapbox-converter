@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`decoration Multi decoration 1`] = `
+"<article>
+  <h1 class=\\"title\\">Decoration</h1>
+  <section>
+    <p><strong class=\\"deco-/ deco-! deco-_ deco--\\">deco-!&nbsp;deco-_&nbsp;deco--&nbsp;deco-/</strong></p>
+  </section>
+</article>"
+`;
+
+exports[`decoration Simple decoration 1`] = `
+"<article>
+  <h1 class=\\"title\\">Decoration</h1>
+  <section>
+    <p><strong class=\\"deco-*-3\\">deco-*-3</strong></p>
+  </section>
+</article>"
+`;

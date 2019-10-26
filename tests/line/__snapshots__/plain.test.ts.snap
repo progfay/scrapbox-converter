@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`plain Simple plain 1`] = `
+"<article>
+  <h1 class=\\"title\\">Plain</h1>
+  <section>
+    <p>This&nbsp;is&nbsp;plain&nbsp;text.</p>
+  </section>
+</article>"
+`;

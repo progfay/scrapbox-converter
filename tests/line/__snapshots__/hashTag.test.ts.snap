@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`hashTag Simple hashTag 1`] = `
+"<article>
+  <h1 class=\\"title\\">Hash&nbsp;Tag</h1>
+  <section>
+    <p><a href=\\"hashTag\\">#hashTag</a></p>
+  </section>
+</article>"
+`;

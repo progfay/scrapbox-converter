@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`quote Simple quote 1`] = `
+"<article>
+  <h1 class=\\"title\\">Quote</h1>
+  <section>
+    <p>
+      <blockquote>&nbsp;Quote&nbsp;sentence</blockquote>
+    </p>
+  </section>
+</article>"
+`;

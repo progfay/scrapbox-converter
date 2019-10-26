@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`indent Simple indent 1`] = `
+"<article>
+  <h1 class=\\"title\\">Indent</h1>
+  <section>
+    <ul>
+      <li>level1</li>
+      <ul>
+        <li>level2</li>
+        <ul>
+          <li>level3</li>
+        </ul>
+      </ul>
+      <li>level1</li>
+      <ul>
+        <ul>
+          <li>level3</li>
+        </ul>
+        <li>level2</li>
+      </ul>
+    </ul>
+  </section>
+</article>"
+`;

@@ -24,7 +24,6 @@ exports[`Page Sample page 1`] = `
   <section>
     <p><strong>Decoration</strong></p>
     <p><strong class=\\"deco-*-3\\">deco-*-3</strong></p>
-    <p><strong class=\\"deco-/ deco-! deco-_ deco--\\">deco-!&nbsp;deco-_&nbsp;deco--&nbsp;deco-/</strong></p>
   </section>
   <section>
     <p><strong>Formula</strong></p>
@@ -65,7 +64,6 @@ exports[`Page Sample page 1`] = `
   <section>
     <p><strong>Icon</strong></p>
     <p><img src=\\"https://scrapbox.io/api/pages/projectName/progfay/icon\\" alt=\\"icon\\" class=\\"normal-icon\\"></img></p>
-    <p><img src=\\"https://scrapbox.io/api/pages/icons/hr/icon\\" alt=\\"icon\\" class=\\"normal-icon\\"></img></p>
   </section>
   <section>
     <p><strong>Image</strong></p>
@@ -73,21 +71,14 @@ exports[`Page Sample page 1`] = `
   </section>
   <section>
     <p><strong>Link</strong></p>
-    <p><a href=\\"https://example.com\\">https://example.com</a></p>
     <p><a href=\\"https://example.com\\">example</a></p>
-    <p><a href=\\"https://scrapbox.io/help/syntax\\">/help/syntax</a></p>
-    <p><a href=\\"settings\\">settings</a></p>
   </section>
   <section>
     <p><strong>Plain</strong></p>
     <p>This&nbsp;is&nbsp;plain&nbsp;text.</p>
-    <p>渡&nbsp;邊&nbsp;恵&nbsp;太&nbsp;(@100kw)</p>
   </section>
   <section>
     <p><strong>Quote</strong></p>
-    <p>
-      <blockquote>&nbsp;Quote&nbsp;sentence</blockquote>
-    </p>
     <p>
       <blockquote>&nbsp;Quote&nbsp;sentence</blockquote>
     </p>
@@ -99,7 +90,6 @@ exports[`Page Sample page 1`] = `
   <section>
     <p><strong>Strong&nbsp;Icon</strong></p>
     <p><img src=\\"https://scrapbox.io/api/pages/projectName/progfay/icon\\" alt=\\"icon\\" class=\\"strong-icon\\"></img></p>
-    <p><img src=\\"https://scrapbox.io/api/pages/icons/hr/icon\\" alt=\\"icon\\" class=\\"strong-icon\\"></img></p>
   </section>
   <section>
     <p><strong>Strong&nbsp;Image</strong></p>
@@ -135,10 +125,6 @@ exports[`Page Sample page 1`] = `
   <section>
     <p><strong>Youtube</strong></p>
     <p><iframe width=\\"640\\" height=\\"360\\" src=\\"http://www.youtube.com/embed/YJ5q8Wrkbdw\\" start=\\"0\\" frameborder=\\"0\\"></iframe></p>
-    <p><iframe width=\\"640\\" height=\\"360\\" src=\\"http://www.youtube.com/embed/YJ5q8Wrkbdw\\" start=\\"8\\" frameborder=\\"0\\"></iframe></p>
-    <p><iframe width=\\"640\\" height=\\"360\\" src=\\"http://www.youtube.com/embed/YJ5q8Wrkbdw\\" start=\\"8\\" frameborder=\\"0\\"></iframe></p>
-    <p><iframe width=\\"640\\" height=\\"360\\" src=\\"http://www.youtube.com/embed/YJ5q8Wrkbdw\\" start=\\"60\\" frameborder=\\"0\\"></iframe></p>
-    <p><iframe width=\\"640\\" height=\\"360\\" src=\\"http://www.youtube.com/embed/YJ5q8Wrkbdw\\" start=\\"3\\" frameborder=\\"0\\"></iframe></p>
   </section>
 </article>"
 `;

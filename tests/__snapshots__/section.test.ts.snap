@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Section Simple section 1`] = `
+"<article>
+  <h1 class=\\"title\\">Section</h1>
+  <section>
+    <p>section&nbsp;1</p>
+    <p>section&nbsp;1</p>
+    <p>section&nbsp;1</p>
+  </section>
+  <section>
+    <p>section&nbsp;2</p>
+  </section>
+  <section>
+    <p>section&nbsp;3</p>
+    <p>section&nbsp;3</p>
+  </section>
+</article>"
+`;

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`helpfeel Simple helpfeel 1`] = `
+"<article>
+  <h1 class=\\"title\\">Helpfeel</h1>
+  <section>
+    <p><pre class=\\"helpfeel\\">Helpfeel&nbsp;notation</pre>
+    </p>
+  </section>
+</article>"
+`;

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`code Simple code 1`] = `
+"<article>
+  <h1 class=\\"title\\">Code</h1>
+  <section>
+    <p><pre>code</pre>
+    </p>
+  </section>
+</article>"
+`;
