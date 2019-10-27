@@ -14,7 +14,14 @@ describe('decoration', () => {
 
   it('Multi decoration', () => {
     const input = `Decoration
-[/!_- deco-! deco-_ deco-- deco-/]`
+[***/!_-# multi decoration]`
+    const html = convert(parse(input), 'projectName')
+    expect(pretty(html)).toMatchSnapshot()
+  })
+
+  it('Remove duplicated decoration', () => {
+    const input = `Decoration
+[___ only one class attribute]`
     const html = convert(parse(input), 'projectName')
     expect(pretty(html)).toMatchSnapshot()
   })

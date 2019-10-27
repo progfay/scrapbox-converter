@@ -4,7 +4,16 @@ exports[`decoration Multi decoration 1`] = `
 "<article>
   <h1 class=\\"title\\">Decoration</h1>
   <section>
-    <p><i class=\\"italic red underline line-through\\">deco-!&nbsp;deco-_&nbsp;deco--&nbsp;deco-/</i></p>
+    <p><i class=\\"italic red underline line-through big\\">multi&nbsp;decoration</i></p>
+  </section>
+</article>"
+`;
+
+exports[`decoration Remove duplicated decoration 1`] = `
+"<article>
+  <h1 class=\\"title\\">Decoration</h1>
+  <section>
+    <p><i class=\\"underline\\">only&nbsp;one&nbsp;class&nbsp;attribute</i></p>
   </section>
 </article>"
 `;
