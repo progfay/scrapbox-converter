@@ -23,7 +23,7 @@ exports[`Page Sample page 1`] = `
   </section>
   <section>
     <p><strong>Decoration</strong></p>
-    <p><strong class=\\"deco-*-3\\">deco-*-3</strong></p>
+    <p><i class=\\"big\\">deco-*-3</i></p>
   </section>
   <section>
     <p><strong>Formula</strong></p>

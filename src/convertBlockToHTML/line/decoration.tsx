@@ -1,11 +1,46 @@
 import { pragma } from 'html-tsx'
-import { DecorationNodeType } from '@progfay/scrapbox-parser'
+import { DecorationType, DecorationNodeType } from '@progfay/scrapbox-parser'
 import { NodeConverterType } from '.'
 
+type DecorationClassType = string
+
+const decoToClassMap: { [deco in DecorationType]?: DecorationClassType } = {
+  _: 'underline',
+  '-': 'line-through',
+  '~': 'wavy',
+  '.': 'dotted',
+  '/': 'italic',
+  '!': 'red',
+  '*-1': 'bold',
+  '*-2': 'big',
+  '*-3': 'big',
+  '*-4': 'big',
+  '*-5': 'large',
+  '*-6': 'large',
+  '*-7': 'large',
+  '*-8': 'huge',
+  '*-9': 'huge',
+  '*-10': 'huge'
+  // '|': '',
+  // '#': '',
+  // '%': '',
+  // '&': '',
+  // '(': '',
+  // ')': '',
+  // '{': '',
+  // '}': '',
+  // '<': '',
+  // '>': '',
+  // ',': '',
+  // '+': '',
+  // '"': '',
+  // '\'': ''
+}
+
 const DecorationConverter: NodeConverterType<DecorationNodeType> = ({ decos, nodes }, projectName: string): string => (
-  <strong class={decos.map(deco => `deco-${deco}`).join(' ')}>
+  <i class={Array.from(new Set(decos.map(deco => decoToClassMap[deco]).filter(Boolean))).join(' ')}>
     { nodes.map(node => require('./').nodeConverter(node, projectName)) }
-  </strong>
+  </i>
 )
 
 export default DecorationConverter

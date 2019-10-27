@@ -4,7 +4,7 @@ exports[`decoration Multi decoration 1`] = `
 "<article>
   <h1 class=\\"title\\">Decoration</h1>
   <section>
-    <p><strong class=\\"deco-/ deco-! deco-_ deco--\\">deco-!&nbsp;deco-_&nbsp;deco--&nbsp;deco-/</strong></p>
+    <p><i class=\\"italic red underline line-through\\">deco-!&nbsp;deco-_&nbsp;deco--&nbsp;deco-/</i></p>
   </section>
 </article>"
 `;
@@ -13,7 +13,7 @@ exports[`decoration Simple decoration 1`] = `
 "<article>
   <h1 class=\\"title\\">Decoration</h1>
   <section>
-    <p><strong class=\\"deco-*-3\\">deco-*-3</strong></p>
+    <p><i class=\\"big\\">deco-*-3</i></p>
   </section>
 </article>"
 `;
