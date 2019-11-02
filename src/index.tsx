@@ -1,4 +1,4 @@
-import { pragma } from 'html-tsx'
+import { pragma } from 'amphtml-tsx'
 import { PageType } from '@progfay/scrapbox-parser'
 import packBlocksToSections from './packBlocksToSections'
 import convertSectionToHTML from './convertSectionToHTML'

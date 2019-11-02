@@ -1,4 +1,4 @@
-import { pragma } from 'html-tsx'
+import { pragma } from 'amphtml-tsx'
 import { highlightAuto } from 'highlight.js'
 import { BlockConverterType } from '.'
 import { CodeBlockType } from '@progfay/scrapbox-parser'

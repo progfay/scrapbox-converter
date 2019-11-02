@@ -1,4 +1,4 @@
-import { pragma } from 'html-tsx'
+import { pragma } from 'amphtml-tsx'
 import { StrongIconNodeType } from '@progfay/scrapbox-parser'
 import { NodeConverterType } from '.'
 

@@ -24,8 +24,8 @@
   "homepage": "https://github.com/progfay/scrapbox-converter#readme",
   "dependencies": {
     "@progfay/scrapbox-parser": "^2.6.0",
+    "amphtml-tsx": "^1.0.1",
     "highlight.js": "^9.15.10",
-    "html-tsx": "^1.1.2",
     "katex": "^0.11.0"
   },
   "devDependencies": {

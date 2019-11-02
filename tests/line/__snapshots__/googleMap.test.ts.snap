@@ -4,7 +4,7 @@ exports[`googleMap Simple googleMap 1`] = `
 "<article>
   <h1 class=\\"title\\">Google&nbsp;Map</h1>
   <section>
-    <p><iframe class=\\"googlemap\\" src=\\"https://maps.google.co.jp/maps?output=embed&amp;ll=35.6972422,139.7593459&amp;z=17&amp;q=%E6%98%8E%E6%B2%BB%E5%A4%A7%E5%AD%A6\\" width=\\"620\\" height=\\"450\\" frameborder=\\"0\\" allowfullscreen=\\"true\\"></iframe></p>
+    <p><iframe class=\\"googlemap\\" src=\\"https://maps.google.co.jp/maps?output=embed&amp;ll=35.6972422,139.7593459&amp;z=17&amp;q=%E6%98%8E%E6%B2%BB%E5%A4%A7%E5%AD%A6\\" width=\\"620\\" height=\\"450\\" frameborder=\\"0\\" allowfullscreen></iframe></p>
   </section>
 </article>"
 `;

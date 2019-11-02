@@ -1,4 +1,4 @@
-import { pragma } from 'html-tsx'
+import { pragma } from 'amphtml-tsx'
 import { SubNodeConverterType } from '../'
 import { LinkNodeType } from './'
 
