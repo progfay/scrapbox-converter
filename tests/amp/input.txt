@@ -1,0 +1,72 @@
+Sample Page
+
+[[Blank]]
+[   ]メロスは激怒した。
+
+[[Code]]
+`code`
+
+[[Code Block]]
+code:js
+ function () {
+   alert(document.location.href)
+   console.log("hello")
+   // You can also write comments!
+ }
+
+[[Decoration]]
+[*** deco-*-3]
+
+[[Formula]]
+[$ \sum_{k=0}^N k^2 = \frac{1}{2}N(N + 1)]
+
+[[Google Map]]
+[N35.6972422,E139.7593459,Z17 明治大学]
+
+[[Hash Tag]]
+#hashTag
+
+[[Helpfeel]]
+? Helpfeel notation
+
+[[Indent]]
+	level1
+		level2
+			level3
+	level1
+			level3
+		level2
+
+[[Icon]]
+[progfay.icon]
+
+[[Image]]
+[http://cutedog.com https://i.gyazo.com/da78df293f9e83a74b5402411e2f2e01.png]
+
+[[Link]]
+[https://example.com example]
+
+[[Plain]]
+This is plain text.
+
+[[Quote]]
+> Quote sentence
+
+[[Strong]]
+[[This is Strong text.]]
+
+[[Strong Icon]]
+[[progfay.icon]]
+
+[[Strong Image]]
+[[https://gyazo.com/5593f3bbe109c38ebf07c16dd25dc4c4]]
+
+[[Table]]
+table:hello
+	1	2	3
+	1 	2 	3
+ ------	------	------
+ a	b	c
+
+[[Youtube]]
+[https://youtu.be/YJ5q8Wrkbdw]

@@ -14,6 +14,6 @@ module.exports = {
     }
   },
   testMatch: [
-    '**/tests/**/*.test.ts'
+    '**/tests/**/*.test.(ts|tsx)'
   ]
 }
