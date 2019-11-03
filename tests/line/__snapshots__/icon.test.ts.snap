@@ -4,7 +4,9 @@ exports[`icon External icon 1`] = `
 "<article>
   <h1 class=\\"title\\">Icon</h1>
   <section>
-    <p><img src=\\"https://scrapbox.io/api/pages/icons/hr/icon\\" alt=\\"icon\\" class=\\"normal-icon\\"></img></p>
+    <p>
+      <amp-img src=\\"https://scrapbox.io/api/pages/icons/hr/icon\\" layout=\\"fill\\" alt=\\"icon\\" class=\\"normal-icon\\"></amp-img>
+    </p>
   </section>
 </article>"
 `;
@@ -13,7 +15,9 @@ exports[`icon Simple icon 1`] = `
 "<article>
   <h1 class=\\"title\\">Icon</h1>
   <section>
-    <p><img src=\\"https://scrapbox.io/api/pages/projectName/progfay/icon\\" alt=\\"icon\\" class=\\"normal-icon\\"></img></p>
+    <p>
+      <amp-img src=\\"https://scrapbox.io/api/pages/projectName/progfay/icon\\" layout=\\"fill\\" alt=\\"icon\\" class=\\"normal-icon\\"></amp-img>
+    </p>
   </section>
 </article>"
 `;

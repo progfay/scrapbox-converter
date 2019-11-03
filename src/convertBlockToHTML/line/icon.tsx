@@ -3,8 +3,9 @@ import { IconNodeType } from '@progfay/scrapbox-parser'
 import { NodeConverterType } from '.'
 
 const IconNodeConverter: NodeConverterType<IconNodeType> = ({ path, pathType }, projectName: string) => (
-  <img
+  <amp-img
     src={`https://scrapbox.io/api/pages${pathType === 'root' ? path : `/${projectName}/${path}`}/icon`}
+    layout='fill'
     alt={'icon'}
     class={'normal-icon'} />
 )
