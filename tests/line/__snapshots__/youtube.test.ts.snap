@@ -4,7 +4,9 @@ exports[`youtube Invalid start time 1`] = `
 "<article>
   <h1 class=\\"title\\">Youtube</h1>
   <section>
-    <p><iframe width=\\"640\\" height=\\"360\\" src=\\"http://www.youtube.com/embed/YJ5q8Wrkbdw\\" start=\\"0\\" frameborder=\\"0\\"></iframe></p>
+    <p>
+      <amp-youtube data-videoid=\\"YJ5q8Wrkbdw\\" layout=\\"responsive\\" width=\\"480\\" height=\\"270\\" data-param-start=\\"0\\"></amp-youtube>
+    </p>
   </section>
 </article>"
 `;
@@ -13,7 +15,9 @@ exports[`youtube Short link youtube 1`] = `
 "<article>
   <h1 class=\\"title\\">Youtube</h1>
   <section>
-    <p><iframe width=\\"640\\" height=\\"360\\" src=\\"http://www.youtube.com/embed/YJ5q8Wrkbdw\\" start=\\"0\\" frameborder=\\"0\\"></iframe></p>
+    <p>
+      <amp-youtube data-videoid=\\"YJ5q8Wrkbdw\\" layout=\\"responsive\\" width=\\"480\\" height=\\"270\\" data-param-start=\\"0\\"></amp-youtube>
+    </p>
   </section>
 </article>"
 `;
@@ -22,8 +26,12 @@ exports[`youtube Short link youtube with start time 1`] = `
 "<article>
   <h1 class=\\"title\\">Youtube</h1>
   <section>
-    <p><iframe width=\\"640\\" height=\\"360\\" src=\\"http://www.youtube.com/embed/YJ5q8Wrkbdw\\" start=\\"5\\" frameborder=\\"0\\"></iframe></p>
-    <p><iframe width=\\"640\\" height=\\"360\\" src=\\"http://www.youtube.com/embed/YJ5q8Wrkbdw\\" start=\\"60\\" frameborder=\\"0\\"></iframe></p>
+    <p>
+      <amp-youtube data-videoid=\\"YJ5q8Wrkbdw\\" layout=\\"responsive\\" width=\\"480\\" height=\\"270\\" data-param-start=\\"5\\"></amp-youtube>
+    </p>
+    <p>
+      <amp-youtube data-videoid=\\"YJ5q8Wrkbdw\\" layout=\\"responsive\\" width=\\"480\\" height=\\"270\\" data-param-start=\\"60\\"></amp-youtube>
+    </p>
   </section>
 </article>"
 `;
@@ -32,7 +40,9 @@ exports[`youtube Simple youtube 1`] = `
 "<article>
   <h1 class=\\"title\\">Youtube</h1>
   <section>
-    <p><iframe width=\\"640\\" height=\\"360\\" src=\\"http://www.youtube.com/embed/YJ5q8Wrkbdw\\" start=\\"0\\" frameborder=\\"0\\"></iframe></p>
+    <p>
+      <amp-youtube data-videoid=\\"YJ5q8Wrkbdw\\" layout=\\"responsive\\" width=\\"480\\" height=\\"270\\" data-param-start=\\"0\\"></amp-youtube>
+    </p>
   </section>
 </article>"
 `;
@@ -41,8 +51,12 @@ exports[`youtube Youtube with start time 1`] = `
 "<article>
   <h1 class=\\"title\\">Youtube</h1>
   <section>
-    <p><iframe width=\\"640\\" height=\\"360\\" src=\\"http://www.youtube.com/embed/YJ5q8Wrkbdw\\" start=\\"8\\" frameborder=\\"0\\"></iframe></p>
-    <p><iframe width=\\"640\\" height=\\"360\\" src=\\"http://www.youtube.com/embed/YJ5q8Wrkbdw\\" start=\\"8\\" frameborder=\\"0\\"></iframe></p>
+    <p>
+      <amp-youtube data-videoid=\\"YJ5q8Wrkbdw\\" layout=\\"responsive\\" width=\\"480\\" height=\\"270\\" data-param-start=\\"8\\"></amp-youtube>
+    </p>
+    <p>
+      <amp-youtube data-videoid=\\"YJ5q8Wrkbdw\\" layout=\\"responsive\\" width=\\"480\\" height=\\"270\\" data-param-start=\\"8\\"></amp-youtube>
+    </p>
   </section>
 </article>"
 `;

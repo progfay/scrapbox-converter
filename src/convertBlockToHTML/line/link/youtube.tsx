@@ -44,12 +44,11 @@ const YoutubeConverter: SubNodeConverterType<LinkNodeType> = (linkNode: LinkNode
   const t = (params(query).find(param => param[0] === 't') || [])[1] || '0'
 
   return (
-    <iframe
-      width={640}
-      height={360}
-      src={`http://www.youtube.com/embed/${v}`}
-      start={seconds(t)}
-      frameborder={0} />
+    <amp-youtube
+      data-videoid={v}
+      layout="responsive"
+      width="480" height="270"
+      data-param-start={seconds(t)} />
   )
 }
 
