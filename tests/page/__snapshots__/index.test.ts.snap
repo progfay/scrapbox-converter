@@ -93,7 +93,9 @@ exports[`Page Sample page 1`] = `
   </section>
   <section>
     <p><strong>Strong&nbsp;Icon</strong></p>
-    <p><img src=\\"https://scrapbox.io/api/pages/projectName/progfay/icon\\" alt=\\"icon\\" class=\\"strong-icon\\"></img></p>
+    <p>
+      <amp-img src=\\"https://scrapbox.io/api/pages/projectName/progfay/icon\\" layout=\\"fill\\" alt=\\"icon\\" class=\\"strong-icon\\"></amp-img>
+    </p>
   </section>
   <section>
     <p><strong>Strong&nbsp;Image</strong></p>
