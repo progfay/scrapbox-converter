@@ -3,8 +3,9 @@ import { StrongImageNodeType } from '@progfay/scrapbox-parser'
 import { NodeConverterType } from '.'
 
 const StrongImageNodeConverter: NodeConverterType<StrongImageNodeType> = ({ src }) => (
-  <img
+  <amp-img
     src={src}
+    layout='fill'
     alt={'image'}
     class={'strong-image'} />
 )

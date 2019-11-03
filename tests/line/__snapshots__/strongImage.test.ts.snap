@@ -4,7 +4,9 @@ exports[`strongImage Simple strongImage 1`] = `
 "<article>
   <h1 class=\\"title\\">Strong&nbsp;Image</h1>
   <section>
-    <p><img src=\\"https://gyazo.com/5593f3bbe109c38ebf07c16dd25dc4c4/thumb/1000\\" alt=\\"image\\" class=\\"strong-image\\"></img></p>
+    <p>
+      <amp-img src=\\"https://gyazo.com/5593f3bbe109c38ebf07c16dd25dc4c4/thumb/1000\\" layout=\\"fill\\" alt=\\"image\\" class=\\"strong-image\\"></amp-img>
+    </p>
   </section>
 </article>"
 `;
