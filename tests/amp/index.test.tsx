@@ -28,11 +28,6 @@ expect.extend({
 
 describe('AMP', () => {
   it('Sample AMP page', () => {
-    console.log(
-      <div hoge>
-      </div>
-    )
-
     const page = fs.readFileSync('./tests/page/input.txt').toString()
     const html: string = '<!doctype html>' + (
       <html AMP>
