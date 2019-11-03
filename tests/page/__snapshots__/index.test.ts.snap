@@ -67,7 +67,9 @@ exports[`Page Sample page 1`] = `
   </section>
   <section>
     <p><strong>Image</strong></p>
-    <p><img src=\\"https://i.gyazo.com/da78df293f9e83a74b5402411e2f2e01.png\\" alt=\\"image\\" class=\\"normal-image\\"></img></p>
+    <p>
+      <amp-img src=\\"https://i.gyazo.com/da78df293f9e83a74b5402411e2f2e01.png\\" layout=\\"fill\\" alt=\\"image\\" class=\\"normal-image\\"></amp-img>
+    </p>
   </section>
   <section>
     <p><strong>Link</strong></p>
