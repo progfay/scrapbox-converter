@@ -3,8 +3,9 @@ import { ExternalLinkNodeType, InternalLinkNodeType } from '@progfay/scrapbox-pa
 import { NodeConverterType, SubNodeConverterType } from '../'
 import escapeHTMLSpecialChars from '../../../lib/escapeHTMLSpecialChars'
 import youtube from './youtube'
+import twitter from './twitter'
 
-const Converters: SubNodeConverterType<LinkNodeType>[] = [youtube]
+const Converters: SubNodeConverterType<LinkNodeType>[] = [youtube, twitter]
 
 export type LinkNodeType = ExternalLinkNodeType | InternalLinkNodeType
 

@@ -68,5 +68,8 @@ table:hello
  ------	------	------
  a	b	c
 
+[[Twitter]]
+[https://twitter.com/progfay/status/1190909733885972481]
+
 [[Youtube]]
 [https://youtu.be/YJ5q8Wrkbdw]

@@ -46,6 +46,7 @@ describe('AMP', () => {
           <script async src="https://cdn.ampproject.org/v0.js"></script>
           <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
           <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
+          <script async custom-element="amp-twitter" src="https://cdn.ampproject.org/v0/amp-twitter-0.1.js"></script>
           <link rel="canonical" href="index.html" />
           <title>Document</title>
         </head>
