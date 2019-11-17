@@ -22,10 +22,7 @@ type YoutubeMatch = {
 }
 
 const isYoutubeMatch = (obj: any): obj is YoutubeMatch => {
-  return (
-    !!obj && !!obj.groups &&
-    typeof obj.groups.v === 'string'
-  )
+  return (typeof obj?.groups?.v) === 'string'
 }
 
 const seconds = (t: string): number => {
