@@ -1,4 +1,4 @@
-import { pragma } from 'html-tsx'
+import { pragma } from 'amphtml-tsx'
 import { renderToString, KatexOptions } from 'katex'
 import { FormulaNodeType } from '@progfay/scrapbox-parser'
 import { NodeConverterType } from '.'

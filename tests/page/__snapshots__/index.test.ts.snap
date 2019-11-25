@@ -31,7 +31,9 @@ exports[`Page Sample page 1`] = `
   </section>
   <section>
     <p><strong>Google&nbsp;Map</strong></p>
-    <p><iframe class=\\"googlemap\\" src=\\"https://maps.google.co.jp/maps?output=embed&amp;ll=35.6972422,139.7593459&amp;z=17&amp;q=%E6%98%8E%E6%B2%BB%E5%A4%A7%E5%AD%A6\\" width=\\"620\\" height=\\"450\\" frameborder=\\"0\\" allowfullscreen=\\"true\\"></iframe></p>
+    <p>
+      <amp-iframe class=\\"googlemap\\" width=\\"620\\" height=\\"450\\" sandbox=\\"allow-scripts allow-same-origin\\" layout=\\"responsive\\" frameborder=\\"0\\" src=\\"https://www.google.com/maps/embed/v1/place?key=AIzaSyC2sPsKnxrPTmqLbqEK2SVOiVzSCyaDmGg&amp;ll=35.6972422,139.7593459&amp;z=17&amp;q=%E6%98%8E%E6%B2%BB%E5%A4%A7%E5%AD%A6\\"></amp-iframe>
+    </p>
   </section>
   <section>
     <p><strong>Hash&nbsp;Tag</strong></p>
@@ -63,11 +65,15 @@ exports[`Page Sample page 1`] = `
   </section>
   <section>
     <p><strong>Icon</strong></p>
-    <p><img src=\\"https://scrapbox.io/api/pages/projectName/progfay/icon\\" alt=\\"icon\\" class=\\"normal-icon\\"></img></p>
+    <p>
+      <amp-img src=\\"https://scrapbox.io/api/pages/projectName/progfay/icon\\" layout=\\"fill\\" alt=\\"icon\\" class=\\"normal-icon\\"></amp-img>
+    </p>
   </section>
   <section>
     <p><strong>Image</strong></p>
-    <p><img src=\\"https://i.gyazo.com/da78df293f9e83a74b5402411e2f2e01.png\\" alt=\\"image\\" class=\\"normal-image\\"></img></p>
+    <p>
+      <amp-img src=\\"https://i.gyazo.com/da78df293f9e83a74b5402411e2f2e01.png\\" layout=\\"fill\\" alt=\\"image\\" class=\\"normal-image\\"></amp-img>
+    </p>
   </section>
   <section>
     <p><strong>Link</strong></p>
@@ -89,11 +95,15 @@ exports[`Page Sample page 1`] = `
   </section>
   <section>
     <p><strong>Strong&nbsp;Icon</strong></p>
-    <p><img src=\\"https://scrapbox.io/api/pages/projectName/progfay/icon\\" alt=\\"icon\\" class=\\"strong-icon\\"></img></p>
+    <p>
+      <amp-img src=\\"https://scrapbox.io/api/pages/projectName/progfay/icon\\" layout=\\"fill\\" alt=\\"icon\\" class=\\"strong-icon\\"></amp-img>
+    </p>
   </section>
   <section>
     <p><strong>Strong&nbsp;Image</strong></p>
-    <p><img src=\\"https://gyazo.com/5593f3bbe109c38ebf07c16dd25dc4c4/thumb/1000\\" alt=\\"image\\" class=\\"strong-image\\"></img></p>
+    <p>
+      <amp-img src=\\"https://gyazo.com/5593f3bbe109c38ebf07c16dd25dc4c4/thumb/1000\\" layout=\\"fill\\" alt=\\"image\\" class=\\"strong-image\\"></amp-img>
+    </p>
   </section>
   <section>
     <p><strong>Table</strong></p>
@@ -123,8 +133,16 @@ exports[`Page Sample page 1`] = `
     </table>
   </section>
   <section>
+    <p><strong>Twitter</strong></p>
+    <p>
+      <amp-twitter width=\\"375\\" height=\\"472\\" layout=\\"responsive\\" data-tweetid=\\"1190909733885972481\\"></amp-twitter>
+    </p>
+  </section>
+  <section>
     <p><strong>Youtube</strong></p>
-    <p><iframe width=\\"640\\" height=\\"360\\" src=\\"http://www.youtube.com/embed/YJ5q8Wrkbdw\\" start=\\"0\\" frameborder=\\"0\\"></iframe></p>
+    <p>
+      <amp-youtube data-videoid=\\"YJ5q8Wrkbdw\\" layout=\\"responsive\\" width=\\"480\\" height=\\"270\\" data-param-start=\\"0\\"></amp-youtube>
+    </p>
   </section>
 </article>"
 `;

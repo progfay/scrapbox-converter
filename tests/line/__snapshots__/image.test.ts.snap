@@ -4,7 +4,9 @@ exports[`image Gyazo with link 1`] = `
 "<article>
   <h1 class=\\"title\\">Image</h1>
   <section>
-    <p><img src=\\"https://gyazo.com/da78df293f9e83a74b5402411e2f2e01/thumb/1000\\" alt=\\"image\\" class=\\"normal-image\\"></img></p>
+    <p>
+      <amp-img src=\\"https://gyazo.com/da78df293f9e83a74b5402411e2f2e01/thumb/1000\\" layout=\\"fill\\" alt=\\"image\\" class=\\"normal-image\\"></amp-img>
+    </p>
   </section>
 </article>"
 `;
@@ -13,7 +15,9 @@ exports[`image Image with link 1`] = `
 "<article>
   <h1 class=\\"title\\">Image</h1>
   <section>
-    <p><img src=\\"https://i.gyazo.com/da78df293f9e83a74b5402411e2f2e01.png\\" alt=\\"image\\" class=\\"normal-image\\"></img></p>
+    <p>
+      <amp-img src=\\"https://i.gyazo.com/da78df293f9e83a74b5402411e2f2e01.png\\" layout=\\"fill\\" alt=\\"image\\" class=\\"normal-image\\"></amp-img>
+    </p>
   </section>
 </article>"
 `;
@@ -22,7 +26,9 @@ exports[`image Simple gyazo 1`] = `
 "<article>
   <h1 class=\\"title\\">Image</h1>
   <section>
-    <p><img src=\\"https://gyazo.com/da78df293f9e83a74b5402411e2f2e01/thumb/1000\\" alt=\\"image\\" class=\\"normal-image\\"></img></p>
+    <p>
+      <amp-img src=\\"https://gyazo.com/da78df293f9e83a74b5402411e2f2e01/thumb/1000\\" layout=\\"fill\\" alt=\\"image\\" class=\\"normal-image\\"></amp-img>
+    </p>
   </section>
 </article>"
 `;
@@ -31,7 +37,9 @@ exports[`image Simple image 1`] = `
 "<article>
   <h1 class=\\"title\\">Image</h1>
   <section>
-    <p><img src=\\"https://i.gyazo.com/da78df293f9e83a74b5402411e2f2e01.png\\" alt=\\"image\\" class=\\"normal-image\\"></img></p>
+    <p>
+      <amp-img src=\\"https://i.gyazo.com/da78df293f9e83a74b5402411e2f2e01.png\\" layout=\\"fill\\" alt=\\"image\\" class=\\"normal-image\\"></amp-img>
+    </p>
   </section>
 </article>"
 `;

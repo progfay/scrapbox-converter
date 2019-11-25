@@ -4,7 +4,9 @@ exports[`strongIcon Root strongIcon 1`] = `
 "<article>
   <h1 class=\\"title\\">Strong&nbsp;Icon</h1>
   <section>
-    <p><img src=\\"https://scrapbox.io/api/pages/icons/hr/icon\\" alt=\\"icon\\" class=\\"strong-icon\\"></img></p>
+    <p>
+      <amp-img src=\\"https://scrapbox.io/api/pages/icons/hr/icon\\" layout=\\"fill\\" alt=\\"icon\\" class=\\"strong-icon\\"></amp-img>
+    </p>
   </section>
 </article>"
 `;
@@ -13,7 +15,9 @@ exports[`strongIcon Simple strongIcon 1`] = `
 "<article>
   <h1 class=\\"title\\">Strong&nbsp;Icon</h1>
   <section>
-    <p><img src=\\"https://scrapbox.io/api/pages/projectName/progfay/icon\\" alt=\\"icon\\" class=\\"strong-icon\\"></img></p>
+    <p>
+      <amp-img src=\\"https://scrapbox.io/api/pages/projectName/progfay/icon\\" layout=\\"fill\\" alt=\\"icon\\" class=\\"strong-icon\\"></amp-img>
+    </p>
   </section>
 </article>"
 `;
