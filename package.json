@@ -25,8 +25,7 @@
   "dependencies": {
     "@progfay/scrapbox-parser": "^2.6.0",
     "amphtml-tsx": "^1.1.1",
-    "highlight.js": "^9.15.10",
-    "katex": "^0.11.0"
+    "highlight.js": "^9.15.10"
   },
   "devDependencies": {
     "@types/amphtml-validator": "^1.0.0",
