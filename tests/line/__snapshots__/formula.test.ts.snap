@@ -5,7 +5,7 @@ exports[`formula Simple formula 1`] = `
   <h1 class=\\"title\\">Formula</h1>
   <section>
     <p>
-      <amp-mathml layout=\\"container\\" data-formula=\\"\\\\[sum_{k=0}^N k^2 = rac{1}{2}N(N + 1)\\\\]\\"></amp-mathml>
+      <amp-mathml layout=\\"container\\" data-formula=\\"\\\\[sum_{k=0}^N k^2 = \\\\frac{1}{2}N(N + 1)\\\\]\\"></amp-mathml>
     </p>
   </section>
 </article>"
