@@ -4,7 +4,9 @@ exports[`formula Simple formula 1`] = `
 "<article>
   <h1 class=\\"title\\">Formula</h1>
   <section>
-    <p><span><span class=\\"katex-error\\" title=\\"ParseError: KaTeX parse error: Unexpected character: &#x27;&#x27; at position 19: …_{k=0}^N k^2 = ̲rac{1}{2}N(N + …\\" style=\\"color:#cc0000\\">sum_{k=0}^N k^2 = rac{1}{2}N(N + 1)</span></span></p>
+    <p>
+      <amp-mathml layout=\\"container\\" data-formula=\\"\\\\[sum_{k=0}^N k^2 = rac{1}{2}N(N + 1)\\\\]\\"></amp-mathml>
+    </p>
   </section>
 </article>"
 `;
