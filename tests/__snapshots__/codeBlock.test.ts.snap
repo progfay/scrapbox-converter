@@ -1,5 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`codeBlock CodeBlock with not registered language 1`] = `
+"<article>
+  <h1 class=\\"title\\">Code&nbsp;Block</h1>
+  <section><pre><code><span class=\\"hljs-keyword\\">this</span>.language.<span class=\\"hljs-keyword\\">is</span>()</code></pre>
+  </section>
+</article>"
+`;
+
 exports[`codeBlock Simple codeBlock 1`] = `
 "<article>
   <h1 class=\\"title\\">Code&nbsp;Block</h1>
