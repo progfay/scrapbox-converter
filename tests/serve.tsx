@@ -6,7 +6,7 @@ import http from 'http'
 
 const PORT = 8000
 
-const page = fs.readFileSync('tests/page/input.txt').toString()
+const page = fs.readFileSync('tests/input.txt').toString()
 const html = '<!doctype html>' + (
   <html AMP>
     <head>

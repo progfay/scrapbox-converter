@@ -7,8 +7,8 @@ import pretty from 'pretty'
 
 describe('Page', () => {
   it('Sample page', () => {
-    const page = fs.readFileSync('./tests/page/input.txt').toString()
-  const html = convert(parseScrapbox(page), 'projectName')
-  expect(pretty(html)).toMatchSnapshot()
+    const page = fs.readFileSync('./tests/input.txt').toString()
+    const html = convert(parseScrapbox(page), 'projectName')
+    expect(pretty(html)).toMatchSnapshot()
   })
 })
