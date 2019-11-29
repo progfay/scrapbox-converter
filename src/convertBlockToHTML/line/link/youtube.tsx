@@ -46,7 +46,7 @@ const YoutubeConverter: SubNodeConverterType<LinkNodeType> = (linkNode: LinkNode
   return (
     <amp-youtube
       data-videoid={v}
-      layout="responsive"
+      layout="fixed"
       width="480" height="270"
       data-param-start={seconds(t)} />
   )
