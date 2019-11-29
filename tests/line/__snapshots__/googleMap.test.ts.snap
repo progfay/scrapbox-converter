@@ -5,7 +5,9 @@ exports[`googleMap Simple googleMap 1`] = `
   <h1 class=\\"title\\">Google&nbsp;Map</h1>
   <section>
     <p>
-      <amp-iframe class=\\"googlemap\\" width=\\"620\\" height=\\"450\\" sandbox=\\"allow-scripts allow-same-origin\\" layout=\\"responsive\\" frameborder=\\"0\\" src=\\"https://www.google.com/maps/embed/v1/place?key=AIzaSyC2sPsKnxrPTmqLbqEK2SVOiVzSCyaDmGg&amp;ll=35.6972422,139.7593459&amp;z=17&amp;q=%E6%98%8E%E6%B2%BB%E5%A4%A7%E5%AD%A6\\"></amp-iframe>
+      <amp-iframe class=\\"googlemap\\" width=\\"620\\" height=\\"450\\" sandbox=\\"allow-scripts allow-same-origin\\" layout=\\"intrinsic\\" frameborder=\\"0\\" src=\\"https://www.google.com/maps/embed/v1/place?key=AIzaSyC2sPsKnxrPTmqLbqEK2SVOiVzSCyaDmGg&amp;center=35.6972422,139.7593459&amp;zoom=17&amp;q=%E6%98%8E%E6%B2%BB%E5%A4%A7%E5%AD%A6\\">
+        <amp-img src=\\"https://maps.googleapis.com/maps/api/staticmap?key=AIzaSyC2sPsKnxrPTmqLbqEK2SVOiVzSCyaDmGg&amp;center=35.6972422,139.7593459&amp;zoom=17&amp;size=620x450\\" placeholder layout=\\"intrinsic\\" width=\\"620\\" height=\\"450\\" alt=\\"image\\"></amp-img>
+      </amp-iframe>
     </p>
   </section>
 </article>"

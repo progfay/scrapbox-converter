@@ -34,7 +34,9 @@ exports[`Page Sample page 1`] = `
   <section>
     <p><strong>Google&nbsp;Map</strong></p>
     <p>
-      <amp-iframe class=\\"googlemap\\" width=\\"620\\" height=\\"450\\" sandbox=\\"allow-scripts allow-same-origin\\" layout=\\"responsive\\" frameborder=\\"0\\" src=\\"https://www.google.com/maps/embed/v1/place?key=AIzaSyC2sPsKnxrPTmqLbqEK2SVOiVzSCyaDmGg&amp;ll=35.6972422,139.7593459&amp;z=17&amp;q=%E6%98%8E%E6%B2%BB%E5%A4%A7%E5%AD%A6\\"></amp-iframe>
+      <amp-iframe class=\\"googlemap\\" width=\\"620\\" height=\\"450\\" sandbox=\\"allow-scripts allow-same-origin\\" layout=\\"intrinsic\\" frameborder=\\"0\\" src=\\"https://www.google.com/maps/embed/v1/place?key=AIzaSyC2sPsKnxrPTmqLbqEK2SVOiVzSCyaDmGg&amp;center=35.6972422,139.7593459&amp;zoom=17&amp;q=%E6%98%8E%E6%B2%BB%E5%A4%A7%E5%AD%A6\\">
+        <amp-img src=\\"https://maps.googleapis.com/maps/api/staticmap?key=AIzaSyC2sPsKnxrPTmqLbqEK2SVOiVzSCyaDmGg&amp;center=35.6972422,139.7593459&amp;zoom=17&amp;size=620x450\\" placeholder layout=\\"intrinsic\\" width=\\"620\\" height=\\"450\\" alt=\\"image\\"></amp-img>
+      </amp-iframe>
     </p>
   </section>
   <section>
@@ -74,7 +76,7 @@ exports[`Page Sample page 1`] = `
   <section>
     <p><strong>Image</strong></p>
     <p>
-      <amp-img src=\\"https://i.gyazo.com/da78df293f9e83a74b5402411e2f2e01.png\\" layout=\\"fill\\" alt=\\"image\\" class=\\"normal-image\\"></amp-img>
+      <amp-img src=\\"https://i.gyazo.com/da78df293f9e83a74b5402411e2f2e01.png\\" layout=\\"intrinsic\\" height=\\"360\\" width=\\"640\\" alt=\\"image\\" class=\\"normal-image\\"></amp-img>
     </p>
   </section>
   <section>
@@ -104,7 +106,7 @@ exports[`Page Sample page 1`] = `
   <section>
     <p><strong>Strong&nbsp;Image</strong></p>
     <p>
-      <amp-img src=\\"https://gyazo.com/5593f3bbe109c38ebf07c16dd25dc4c4/thumb/1000\\" layout=\\"fill\\" alt=\\"image\\" class=\\"strong-image\\"></amp-img>
+      <amp-img src=\\"https://gyazo.com/5593f3bbe109c38ebf07c16dd25dc4c4/thumb/1000\\" layout=\\"intrinsic\\" height=\\"720\\" width=\\"1280\\" alt=\\"image\\" class=\\"strong-image\\"></amp-img>
     </p>
   </section>
   <section>
@@ -143,7 +145,7 @@ exports[`Page Sample page 1`] = `
   <section>
     <p><strong>Youtube</strong></p>
     <p>
-      <amp-youtube data-videoid=\\"YJ5q8Wrkbdw\\" layout=\\"responsive\\" width=\\"480\\" height=\\"270\\" data-param-start=\\"0\\"></amp-youtube>
+      <amp-youtube data-videoid=\\"YJ5q8Wrkbdw\\" layout=\\"fixed\\" width=\\"480\\" height=\\"270\\" data-param-start=\\"0\\"></amp-youtube>
     </p>
   </section>
 </article>"
