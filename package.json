@@ -10,8 +10,7 @@
     "lint:fix": "eslint --fix . --ext .ts.tsx",
     "test": "jest --coverage",
     "test:update": "jest --updateSnapshot",
-    "pretest:serve": "npm run build",
-    "test:serve": "node tests/serve.js"
+    "test:serve": "ts-node tests/serve.tsx"
   },
   "repository": {
     "type": "git",
@@ -49,6 +48,7 @@
     "jest": "^24.9.0",
     "pretty": "^2.0.0",
     "ts-jest": "^24.1.0",
+    "ts-node": "^8.5.4",
     "typescript": "^3.7.2"
   }
 }
