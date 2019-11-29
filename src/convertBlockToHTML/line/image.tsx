@@ -5,7 +5,9 @@ import { NodeConverterType } from '.'
 const ImageNodeConverter: NodeConverterType<ImageNodeType> = ({ src }) => (
   <amp-img
     src={src}
-    layout='fill'
+    layout='intrinsic'
+    height={360}
+    width={640}
     alt='image'
     class='normal-image' />
 )
