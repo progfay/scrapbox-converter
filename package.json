@@ -10,7 +10,7 @@
     "lint:fix": "eslint --fix . --ext .ts.tsx",
     "test": "jest --coverage",
     "test:update": "jest --updateSnapshot",
-    "test:serve": "ts-node tests/serve.tsx"
+    "test:serve": "nodemon --watch src --ext 'ts,tsx' --exec 'ts-node tests/serve.tsx'"
   },
   "repository": {
     "type": "git",
@@ -46,6 +46,7 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
     "jest": "^24.9.0",
+    "nodemon": "^2.0.1",
     "pretty": "^2.0.0",
     "ts-jest": "^24.1.0",
     "ts-node": "^8.5.4",
